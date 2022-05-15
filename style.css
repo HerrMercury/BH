@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.hotelName{
+    position:sticky;
+    top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #e2d0bd;
+    padding: 15px;
+    width: auto;
+    z-index: 1;
+    display: flex;
+}
+.bookNow{
+    position: absolute;
+    left: 90%;
+}
+.bookNow>a>button{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:antiquewhite ;
+    color: rgb(111, 55, 55) ;
+    border-color: rgb(111, 55, 55);
+}
+.babaihotelName{
+    padding: 0%;
+    font-weight: 600;
+    color: rgb(111, 55, 55);
+}
+.youtubeVideo{
+    background-color:rgb(111, 55, 55) ;
+    height: 550px;
+    width: 100%;
+}
+.video{
+    margin: 75px 20%;
+}
+.abouthotel{
+    text-align: left;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.gridabout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px;
+}
+#footer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1);
+    text-align: center;
+    background-color: rgb(217, 201, 119);
+}
+p{
+    font-size: medium; 
+    padding: 10px;
+    padding-left: 0%;
+}
+.gridabout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.abouticons{
+    width: 25px;
+    display: inline;
+}
+h4{
+    padding-left: 10px;
+}
+.testimonialhome{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    text-align: center;
+    background-color: #e2d0bd;
+}
+.corefeatures{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px;
+    text-align: center;
+    background-color: #e2d0bd;
+}
+.corelogoimg{
+    width: 50px;
+}
+.corelogos{
+    border: 1px solid #e2d0bd;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px 10px;
+    background-color: antiquewhite;
+}
+.testmonialtags{
+    border: 1px solid #e2d0bd;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+    width: 400px;
+    margin-left: 40px;
+    padding: 20px;
+    background-color: antiquewhite;
+
+}
+.testimoniallogos{
+    width: 100px;
+}
+.logobrown{
+    width: 60px;
+    height: 50px;
+}
+
+
+/*Book now css*/
+.rooms{
+    padding-top: 15px;
+    background-color:rgb(111, 55, 55) ;
+}
+.room{
+    position: relative;
+    margin: 0 15px 15px;
+    background-color:#e2d0bd ;
+}
+.room>img{
+    width: 600px;
+    height: 500px;
+}
+.roomDetails{
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    display: inline-block;
+}
+.roomPrice{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    display: inline-block;
+}
+ul>li{
+    font-size: 20px;
+}
+.roomDetails>a>button{
+    position: absolute;
+    left: 20%;
+    bottom: -25%;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color:antiquewhite ;
+    color: rgb(111, 55, 55) ;
+    border-color: rgb(111, 55, 55);   
+}
+.price{
+    font-size: 35px;
+}
+.roomPrice>p{
+    margin: 3px;
+    padding: 0px;
+}

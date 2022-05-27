@@ -61,9 +61,6 @@ div>a>.herobanner-bookNow,.header-booknow{
     top: 550px;
 }
 #footer{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(1);
     text-align: center;
     background-color: rgb(217, 201, 119);
 }
